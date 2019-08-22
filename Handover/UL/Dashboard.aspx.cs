@@ -16,17 +16,17 @@ namespace Handover.UL
 
         protected void btnFind_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("FindPatient.aspx");
         }
 
         protected void btnToDo_Click(object sender, EventArgs e)
         {
-           
+            Response.Redirect("ToDoList.aspx");
         }
 
         protected void btnAdd_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("AddPatient.aspx");
         }
 
         protected void btnLogout_Click(object sender, EventArgs e)
